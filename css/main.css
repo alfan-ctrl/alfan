@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,700&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #4040ff;
+}
+
+.nav-container a {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3em;
+}
+
+header .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul a {
+  display: block;
+  padding: 0;
+  font-size: 2em;
+}
+
+.social-header {
+  display: none;
+}
+
+.social-header img {
+  width: 50px;
+}
+
+.hero {
+  background: #4040ff;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 5em;
+  height: 800px;
+}
+
+.meet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: lighter;
+  color: white;
+}
+
+.meet p {
+  font-size: 2em;
+  text-align: center;
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
+}
+
+section {
+  padding: 4em 4em;
+  text-align: center;
+}
+
+.skill {
+  background: #6186ff;
+}
+
+.featured {
+  position: relative;
+}
+
+.featured::before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: lightblue;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.skill-container ul li {
+  background: white;
+  padding: 3em;
+  border-radius: 2em;
+  margin-bottom: 3em;
+  margin: 3em;
+}
+
+.skill-container ul li .icon-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.skill-container ul li .icon-container img {
+  width: 100px;
+}
+
+.skill-title {
+  font-weight: bold;
+}
+
+.skill-deskripsi {
+  margin: 2em;
+}
+
+.subtitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #3939fd;
+  font-size: 2em;
+}
+
+.Judul {
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 20px;
+}
+
+.gambar {
+  border-radius: 40px;
+}
+
+h1 {
+  width: 200px;
+  font-size: 3.5em;
+}
+
+.karya {
+  margin: 40px;
+}
+
+.karya .deskripsi {
+  text-justify: auto;
+}
+
+.tentang {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 4em;
+  margin-bottom: -1em;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1em;
+}
+
+.footer-app {
+  display: block;
+}
+
+.footer-app ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #3939fd;
+  border-top-left-radius: 80px;
+}
+
+.footer-app ul img {
+  width: 80px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,700&display=swap');
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.nav-container{
+    background: rgb(64, 64, 255);
+    a{
+        color: white;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+
+    .logo{
+        color: white;
+        font-weight: bold;
+        font-size: 2em;
+    }
+    nav {
+        float: right;
+
+        ul{
+            display: flex;
+
+            a{
+                display: block;
+                padding: 0;
+                font-size: 2em;
+            }
+        }
+    }
+}
+
+.social-header{
+    display: none;
+  img{
+      width: 50px;
+  }
+}
+
+.hero{
+    background:rgb(64, 64, 255); 
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 5em;
+    height: 800px;
+}
+.meet{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: lighter;
+    color: white;
+    p{
+        font-size: 2em;
+        text-align: center;
+        
+    }
+}
+.scroll{
+    width: 30px;
+    margin-top: 2em;
+}
+section{
+    padding: 4em 4em;
+    text-align: center;
+}
+.skill{
+    background: rgb(97, 134, 255);
+}
+.featured{
+    position: relative;
+}
+.featured::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: lightblue;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.skill-container ul li{
+    background: white;
+    padding: 3em;
+    border-radius: 2em;
+    margin-bottom: 3em;
+    margin: 3em;
+    
+    .icon-container{
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin:0 auto;
+        width: 400px;
+        img{
+            width: 100px;
+        }
+    }
+}
+.skill-title{
+    font-weight: bold;
+}
+.skill-deskripsi{
+    margin: 2em;
+}
+.subtitle{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: rgb(57, 57, 253);
+    font-size: 2em;
+}
+.Judul{
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 20px;
+}
+.gambar{
+    border-radius: 40px;
+}
+h1{
+    width: 200px;
+    font-size: 3.5em;
+}
+.karya{
+    margin: 40px;
+    .deskripsi{
+     text-justify: auto;
+    }
+}
+.tentang{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 4em;
+    margin-bottom: -1em;
+    
+}
+.footer{
+    text-align: center;
+    p{
+        font-size:1em;
+    }
+}
+.footer-app{
+    display:block;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        background: rgb(57, 57, 253);
+        border-top-left-radius: 80px;
+
+        img{
+            width: 80px;
+        }
+      
+    }
+}
